@@ -10,11 +10,11 @@ Have hopes to use CapacitorJS to port the SDK/dashboard to mobile platform.
 
 Planned:
 
--   [] Auto-discovery of all types of HA entities
--   [] TypeScript types and classes
--   [] HA Service Calls hidden under-the-hood for communicating entity state update to HA
--   [] Make token acquirable via UI using HA OAuth
--   [] More stuff...
+-   [ ] Auto-discovery of all types of HA entities
+-   [ ] TypeScript types and classes
+-   [ ] HA Service Calls hidden under-the-hood for communicating entity state update to HA
+-   [ ] Make token acquirable via UI using HA OAuth
+-   [ ] More stuff...
 
 Problems:
 
