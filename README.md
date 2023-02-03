@@ -18,7 +18,7 @@ Planned:
 
 Problems:
 
--   [] Entity update not causing Vue DOM update (probably something to do with the way the Pinia store was implemented in this case)
+-   [ ] Entity update not causing Vue DOM update (probably something to do with the way the Pinia store was implemented in this case)
 
 ## Recommended IDE Setup
 
