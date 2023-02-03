@@ -1,6 +1,24 @@
 # Home-Assistant Vue SDK
 
-This template should help get you started developing with Vue 3 in Vite.
+The goal is to develop a VueJS SDK for Home-Assistant to enable easy development of custom dashboard for Home-Assistant that can be then ported to IOS and Android and used on tablets.
+
+Communication with Home-Assistant is achieved through [their Websocket API](https://developers.home-assistant.io/docs/api/websocket/).
+
+Have hopes to use CapacitorJS to port the SDK/dashboard to mobile platform.
+
+> NOTE: Currently the project is a mess and doesn't really resemble an SDK, the plan is to first develop a working dashboard with support for all HA entity types and then extract the SDK part from it. While I don't think it's a good practice, it will make the development of project easier and thus faster in the early stages for me personally which is great as I don't really have a lot of free time for it.
+
+Planned:
+
+-   [] Auto-discovery of all types of HA entities
+-   [] TypeScript types and classes
+-   [] HA Service Calls hidden under-the-hood for communicating entity state update to HA
+-   [] Make token acquirable via UI using HA OAuth
+-   [] More stuff...
+
+Problems:
+
+-   [] Entity update not causing Vue DOM update (probably something to do with the way the Pinia store was implemented in this case)
 
 ## Recommended IDE Setup
 
